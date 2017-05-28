@@ -41,3 +41,12 @@ p {
 a {
     color: #224241
 }
+
+.footer {
+    position:fixed;
+    left:12.5vw;
+    bottom:0px;
+    height:5vh;
+    width:75vw;
+    background:rgba(229,229,229,.85);
+}
