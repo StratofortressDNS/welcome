@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
+body {
+    background: url('plane.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Rubik';
+
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    background-color: rgba(229,229,229,.85);
+    width: 75vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #134611;
+}
+
+.checkmark {
+    padding-right: 3vw;
+}
+
+h1 {
+    display: block
+}
+
+p {
+    display: block
+}
+
+a {
+    color: #224241
+}
