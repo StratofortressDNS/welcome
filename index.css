@@ -3,3 +3,19 @@
 h1 {
     color: #134611;
 }
+
+* {
+    animation-timing-function: cubic-bezier(.81,.26,.7,.7) !important;
+}
+
+.stratofortress-fixed {
+    width: 15vw;
+    position: fixed;
+    bottom: 3vh;
+    filter: opacity(25%);
+    transition-duration: .5s;
+}
+
+.stratofortress-fixed:hover {
+    filter: opacity(100%);
+}
